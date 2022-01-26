@@ -1,0 +1,7 @@
+n = input('Digite seu nome: ')
+a = n.split()
+aa = (a[0])
+a1 = (a[-1])
+print('Processando...')
+print('Seu primeiro nome: {}'.format(aa))
+print('Seu último nome: {}'.format(a1))
