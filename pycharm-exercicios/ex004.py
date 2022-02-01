@@ -1,4 +1,4 @@
-n = input('Digite algo: ')
+n = input('\033[1;31;107mDigite algo\033[m: ')
 print('O tipo primitivo desse valor é ', type(n))
 print('Está em maiúsculas?', n.isupper())
 print('Está em minúsculas?', n.islower())

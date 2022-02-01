@@ -1,4 +1,4 @@
-nome = input('Digite seu nome completo: ')
+nome = input('\033[1;33mDigite seu nome completo: ')
 a = nome.upper()
 a1 = nome.lower()
 a2 = nome.replace(" ", "")

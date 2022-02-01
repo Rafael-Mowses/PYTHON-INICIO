@@ -1,2 +1,2 @@
 name = input('Digite seu nome :')
-print('É um prazer te conhecer,' ,name, '!')
+print('\033[;32mÉ um prazer te conhecer,' ,name, '!')
