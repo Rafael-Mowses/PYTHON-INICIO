@@ -1,6 +1,7 @@
 p = float(input('Informe seu peso (kg): '))
 a = float(input('Informe a sua altura (metro e cm): '))
 i = p / (a * a)
+print('O IMC dessa pessoa é de {:.1f}'.format(i))
 if i < 18.5:
     print('Abaixo do peso')
 elif i == 18.5 or i < 25:

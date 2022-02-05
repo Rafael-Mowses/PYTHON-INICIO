@@ -1,6 +1,6 @@
-print('\033[1;33m1 para à vista\n2 à vista no cartão\n3 em até 2x no cartão\n4 3x ou mais no cartão\033[m')
-n = int(input('\033[1;34mQual vai ser a forma de pagamento\033[m: '))
 n1 = float(input('\033[1;34mQual o valor do produto\033[m: R$'))
+print('\033[1;33m[ 1 ] para à vista\n[ 2 ] à vista no cartão\n[ 3 ] em até 2x no cartão\n[ 4 ] 3x ou mais no cartão\033[m')
+n = int(input('\033[1;34mQual vai ser a forma de pagamento\033[m: '))
 a = n1 * 0.9
 a1 = n1 * 0.95
 a2 = n1 * 1.20
